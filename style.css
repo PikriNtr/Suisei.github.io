@@ -1,0 +1,45 @@
+.body{
+    margin: 0;
+    color: #333;
+    background: #131315;
+    font-family: 'Monsterrat',monospace;
+    font-weight: bold;
+}
+
+*,
+:after
+:before{
+    box-sizing: border-box;
+}
+
+.clearfix:after,
+.clearfix:before{
+    content: '';
+    display: itemle;
+}
+
+.clearfix:after{
+    clear: both;
+    display: block;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 525px;
+    min-height: 670px;
+    position: relative;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24) 0 17px 50px 0 rgba(0, 0, 0, .19);
+
+}
+.login-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: #131315;
+}
